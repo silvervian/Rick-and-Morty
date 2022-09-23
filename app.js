@@ -7,8 +7,9 @@ document.addEventListener("mousemove", (e) => {
   const anchorX = rect.left + rect.width / 2;
   const anchorY = rect.top + rect.height / 2;
 
+  console.log(rect);
+
   const angleDeg = angle(mouseX, mouseY, anchorX, anchorY);
-  console.log(angleDeg);
 
   const eyes = document.querySelectorAll(".eye");
   eyes.forEach((eye) => {

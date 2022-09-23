@@ -16,6 +16,10 @@ main {
   /* display: none; */
 }
 
+#image-container {
+  position: relative;
+}
+
 #eyes,
 #eyes img {
   position: absolute;
